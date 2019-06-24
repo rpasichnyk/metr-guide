@@ -39,11 +39,11 @@ It is possible to arrange/show/hide/resize/recolour cells:
 * Long press and drag to resize
 * Touch colour palette to change colour, long press a colour to expand more colours
 
-<img src="https://rpasichnyk.github.io/metr-guide/realtime1.mp4" width="330">
+<img src="https://rpasichnyk.github.io/metr-guide/realtime1.mp4.gif" width="330"></img>
 
 There is an indicator in the bottom which shows currently selected BLE module and connection status, ESC hardware name and firmware version. It blinks every time new packet from VESC is received.
 
-<img src="https://rpasichnyk.github.io/metr-guide/status1.mp4" width="220">
+<img src="https://rpasichnyk.github.io/metr-guide/status1.mp4.gif" width="220"></img>
 
 <h3 id='heading--modes'>Modes</h3>
 TBD
@@ -62,12 +62,12 @@ TBD
 
 An easy way to add telemetry to your videos. You can film the video with the camera of your choice and record the telemetry data separately with the metr app. Then you combine them together.
 
-<video autoplay="" muted="" loop="" playsinline="" src="https://rpasichnyk.github.io/metr-guide/overlayvirb2.mp4" width="500"><img src="https://rpasichnyk.github.io/metr-guide/overlayvirb2.mp4" width="500"></video>
+<img src="https://rpasichnyk.github.io/metr-guide/overlayvirb.mp4.gif" width="500"></img>
 
 Get [GARMIN VIRB® Edit](https://buy.garmin.com/en-US/US/p/573412)  
 Open your record in the browser and add `?format=fit` in the address bar. Wait until telemetry file is downloaded
 
-<img src="https://rpasichnyk.github.io/metr-guide/formatfit.mp4" width="500">
+<img src="https://rpasichnyk.github.io/metr-guide/formatfit.mp4.gif" width="500"></img>
 
 Start GARMIN VIRB® Edit and import your video  
 Click Import G-Metrix and use the .fit file that you downloaded  
