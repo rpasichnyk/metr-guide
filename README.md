@@ -62,7 +62,7 @@ TBD
 
 An easy way to add telemetry to your videos. You can film the video with the camera of your choice and record the telemetry data separately with the metr app. Then you combine them together.
 
-<img src="https://rpasichnyk.github.io/metr-guide/overlayvirb.mp4" width="500">
+<img src="https://rpasichnyk.github.io/metr-guide/overlayvirb2.mp4" width="500">
 
 Get [GARMIN VIRB® Edit](https://buy.garmin.com/en-US/US/p/573412)  
 Open your record in the browser and add `?format=fit` in the address bar. Wait until telemetry file is downloaded
