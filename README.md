@@ -39,11 +39,11 @@ It is possible to arrange/show/hide/resize/recolour cells:
 * Long press and drag to resize
 * Touch colour palette to change colour, long press a colour to expand more colours
 
-<img src="https://rpasichnyk.github.io/metr-guide/realtime1.mov" width="400">
+<img src="https://rpasichnyk.github.io/metr-guide/realtime1.mp4" width="400">
 
 There is an indicator in the bottom which shows currently selected BLE module and connection status, ESC hardware name and firmware version. It blinks every time new packet from VESC is received.
 
-<img src="https://rpasichnyk.github.io/metr-guide/status1.mov" width="300">
+<img src="https://rpasichnyk.github.io/metr-guide/status1.mp4" width="300">
 
 <h3 id='heading--modes'>Modes</h3>
 TBD
