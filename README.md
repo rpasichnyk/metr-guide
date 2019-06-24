@@ -5,7 +5,7 @@ This guide will be improving over time and hopefully some day will cover everyth
 * [VESC®](https://vesc-project.com)-based controller
 * [Metr Pro](https://metr.at/shop) bluetooth module
 
-If you scateboard has another controller, the app will not work for you. For example Meepo, WowGo, Backfire have another type of controller and are not compatible.
+If you skateboard has another controller, the app will not work for you. For example Meepo, WowGo, Backfire have another type of controller and are not compatible.
 
 
 ### Contents
