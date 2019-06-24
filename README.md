@@ -11,7 +11,6 @@
 [DieBieMS](#heading--diebiems)  
 
 
-
 <h3 id='realtime'>Realtime</h3>
 
 Shows values such as voltage, current, temperature from your VESC at any given time. Each value is displayed in it's own cell. Following cells are available:
@@ -57,15 +56,6 @@ TBD
 TBD
 <h3 id='heading--settings'>Settings</h3>
 TBD
-<h3 id='heading--diebiems'>DieBieMS</h3>
-
-[DieBieMS](https://github.com/DieBieEngineering/DieBieMS) is a smart BMS (Battery Management System). If you have DieBieMS connected via CAN bus it will be automatically detected in the Metr App. DieBieMS provides such information as individual cell voltages and state of charge / discharge, consumption based battery percent data.
-
-No extra setup is needed in the Metr App, DieBieMS 
-To see individual cell voltages, click Battery percent cell on the Realtime page.
-
-When you plug in the charger, DieBieMS view will automatically open and show charging current / balancing state. Glowing dots on the cells mean they are balancing at the moment.
-
 <h3 id='heading--overlay'>Overlay</h3>
 
 An easy way to add telemetry to your videos. You can film the video with the camera of your choice and record the telemetry data separately with the metr app. Then you combine them together.
@@ -79,6 +69,15 @@ Open your record in the browser and add `?format=fit` in the address bar. Wait u
 
 Start GARMIN VIRB® Edit and import your video  
 Click Import G-Metrix and use the .fit file that you downloaded  
+
+<h3 id='heading--diebiems'>DieBieMS</h3>
+
+[DieBieMS](https://github.com/DieBieEngineering/DieBieMS) is a smart BMS (Battery Management System). If you have DieBieMS connected via CAN bus it will be automatically detected in the Metr App. DieBieMS provides such information as individual cell voltages and state of charge / discharge, consumption based battery percent data.
+
+No extra setup is needed in the Metr App, DieBieMS 
+To see individual cell voltages, click Battery percent cell on the Realtime page.
+
+When you plug in the charger, DieBieMS view will automatically open and show charging current / balancing state. Glowing dots on the cells mean they are balancing at the moment.
 
 <br/>
 <br/>
