@@ -1,5 +1,16 @@
-## Contents
+[Metr App](https://metr.at) is probably™️ the most advanced telemetry app for electric skateboards. As amount of features continued to grow over the years the time has come for the proper guide to explain the basics and some hidden secrets in the app.
 
+This guide will be improving over time and hopefully some day will cover everything the app has to offer. Before you start reading there are two very important things you need to know. In order to use it you must have:
+
+* [VESC®](https://vesc-project.com)-based controller
+* [Metr Pro](https://metr.at/shop) bluetooth module
+
+If you scateboard has another controller, the app will not work for you. For example Meepo, WowGo, Backfire have another type of controller and are not compatible.
+
+
+### Contents
+
+[First time setup](#heading--firsttime)  
 [Realtime](#heading--realtime)  
 [Modes](#heading--modes)  
 [Records](#heading--records)  
@@ -11,8 +22,11 @@
 [DieBieMS](#heading--diebiems)  
 [Troubleshooting](#heading--troubleshooting)  
 
+<h3 id='firsttime'>🐣 First time setup</h3>
 
-<h3 id='realtime'>Realtime</h3>
+Follow the instructions at [metr.at/setup](https://metr.at/setup)
+
+<h3 id='realtime'>📈 Realtime</h3>
 
 Shows values such as voltage, current, temperature from your VESC at any given time. Each value is displayed in it's own cell. Following cells are available:
 
@@ -45,21 +59,20 @@ There is an indicator in the bottom which shows currently selected BLE module an
 
 <img src="https://rpasichnyk.github.io/metr-guide/status1.mp4.gif" width="220">
 
-<h3 id='heading--modes'>Modes</h3>
+<h3 id='heading--modes'>🐌 Modes</h3>
 TBD
-<h3 id='heading--records'>Records</h3>
+<h3 id='heading--records'>⏺ Records</h3>
 TBD  
 To export raw JSON data open your record in the browser and add `?format=json` in the address bar.
-<h3 id='heading--faults'>Faults</h3>
+<h3 id='heading--faults'>🛑 Faults</h3>
 TBD
-<h3 id='heading--expert'>Expert</h3>
+<h3 id='heading--expert'>🎓 Expert</h3>
 TBD
-<h3 id='heading--announcements'>Announcements</h3>
+<h3 id='heading--announcements'>📣 Announcements</h3>
 TBD
-<h3 id='heading--settings'>Settings</h3>
+<h3 id='heading--settings'>⚙️ Settings</h3>
 TBD
-<h3 id='heading--overlay'>Overlay</h3>
-
+<h3 id='heading--overlay'>🔢 Overlay</h3>
 An easy way to add telemetry to your videos. You can film the video with the camera of your choice and record the telemetry data separately with the metr app. Then you combine them together.
 
 <img src="https://rpasichnyk.github.io/metr-guide/overlayvirb.mp4.gif" width="500">
@@ -72,7 +85,7 @@ Open your record in the browser and add `?format=fit` in the address bar. Wait u
 Start GARMIN VIRB® Edit and import your video  
 Click Import G-Metrix and use the .fit file that you downloaded  
 
-<h3 id='heading--diebiems'>DieBieMS</h3>
+<h3 id='heading--diebiems'>🔋 DieBieMS</h3>
 
 [DieBieMS](https://github.com/DieBieEngineering/DieBieMS) is a smart BMS (Battery Management System). If you have DieBieMS connected via CAN bus it will be automatically detected in the Metr App. DieBieMS provides such information as individual cell voltages and state of charge / discharge, consumption based battery percent data.
 
@@ -81,7 +94,7 @@ To see individual cell voltages, click Battery percent cell on the Realtime page
 
 When you plug in the charger, DieBieMS view will automatically open and show charging current / balancing state. Glowing dots on the cells mean they are balancing at the moment.
 
-<h3 id='heading--troubleshooting'>Troubleshooting</h3>
+<h3 id='heading--troubleshooting'>🛠 Troubleshooting</h3>
 
 A good advice is to search for information on [esk8.builders forum](https://www.electric-skateboard.builders) and [esk8.news forum](https://forum.esk8.news). Maybe you will find the solution.
 
@@ -95,5 +108,5 @@ If you didn't find anything relevant, could be that you found a bug! The bugs ar
 
 This guide is written in [Markdown](https://en.wikipedia.org/wiki/Markdown) and is available at
 
-[GitHub](https://rpasichnyk.github.io/metr-guide/)  
+[GitHub](https://rpasichnyk.github.io/metr-guide/) (contributions welcome)  
 [forum.esk8.news](https://forum.esk8.news/t/the-definitive-guide-to-metr-app) (ask your questions here)
