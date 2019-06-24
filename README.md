@@ -9,6 +9,7 @@
 [Settings](#heading--settings)  
 [Overlay](#heading--overlay)  
 [DieBieMS](#heading--diebiems)  
+[Troubleshooting](#heading--troubleshooting)  
 
 
 <h3 id='realtime'>Realtime</h3>
@@ -38,16 +39,17 @@ It is possible to arrange/show/hide/resize/recolour cells:
 * Long press and drag to resize
 * Touch colour palette to change colour, long press a colour to expand more colours
 
-![](https://rpasichnyk.github.io/metr-guide/realtime1.mov.gif)
+<img src="https://rpasichnyk.github.io/metr-guide/realtime1.mov" width="400">
 
 There is an indicator in the bottom which shows currently selected BLE module and connection status, ESC hardware name and firmware version. It blinks every time new packet from VESC is received.
 
-![](https://rpasichnyk.github.io/metr-guide/status1.mov.gif)
+<img src="https://rpasichnyk.github.io/metr-guide/status1.mov" width="300">
 
 <h3 id='heading--modes'>Modes</h3>
 TBD
 <h3 id='heading--records'>Records</h3>
-TBD
+TBD  
+To export raw JSON data open your record in the browser and add `?format=json` in the address bar.
 <h3 id='heading--faults'>Faults</h3>
 TBD
 <h3 id='heading--expert'>Expert</h3>
@@ -78,6 +80,14 @@ No extra setup is needed in the Metr App, DieBieMS
 To see individual cell voltages, click Battery percent cell on the Realtime page.
 
 When you plug in the charger, DieBieMS view will automatically open and show charging current / balancing state. Glowing dots on the cells mean they are balancing at the moment.
+
+<h3 id='heading--troubleshooting'>Troubleshooting</h3>
+
+A good advice is to search for information on [esk8.builders forum](https://www.electric-skateboard.builders) and [esk8.news forum](https://forum.esk8.news). Maybe you will find the solution.
+
+If you didn't find anything relevant, could be that you found a bug! The bugs are always there🐛 and once in a while a new one pops out. If you want to report it, please collect the log file from the app. Open Settings and click on "Show Logs" button. Send log file toghether with the bug description, screenshots or video. Log file resets every day so don't forget to collect it after you experienced the problem.
+
+<img src="https://rpasichnyk.github.io/metr-guide/showlogs.png" width="400">
 
 <br/>
 <br/>
