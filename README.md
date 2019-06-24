@@ -75,4 +75,4 @@ TBD
 This guide is written in [Markdown](https://en.wikipedia.org/wiki/Markdown) and is available at
 
 [GitHub](https://rpasichnyk.github.io/metr-guide/)  
-[forum.esk8.news](https://forum.esk8.news) (ask your questions there)
+[forum.esk8.news](https://forum.esk8.news/t/the-definitive-guide-to-metr-app) (ask your questions here)
