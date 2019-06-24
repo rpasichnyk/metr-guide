@@ -1,5 +1,3 @@
-# Metr App Guide
-
 ## Contents
 
 [Realtime](#realtime-page)  
@@ -70,7 +68,25 @@ To see individual cell voltages, click Battery percent cell on the Realtime page
 When you plug in the charger, DieBieMS view will automatically open and show charging current / balancing state. Glowing dots on the cells mean they are balancing at the moment.
 
 ### Overlay
-TBD
+
+An easy way to add telemetry to your videos. You can film the video with the camera of your choice and record the telemetry data separately with the metr app. Then you combine them together.
+
+![](https://rpasichnyk.github.io/metr-guide/overlayvirb.mp4.gif)
+
+Get [GARMIN VIRB® Edit](https://buy.garmin.com/en-US/US/p/573412)
+
+Open your record in the browser and add `?format=fit` in the address bar. Wait until telemetry file is downloaded.
+
+![](https://rpasichnyk.github.io/metr-guide/formatfit.mp4.gif)
+
+Start GARMIN VIRB® Edit and import your video.
+
+Click Import G-Metrix and use the .fit file that you downloaded.
+
+
+##  
+##  
+##  
 
 This guide is written in [Markdown](https://en.wikipedia.org/wiki/Markdown) and is available at
 
