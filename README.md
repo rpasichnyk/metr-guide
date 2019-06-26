@@ -1,3 +1,5 @@
+<span style="color:red">**[STATUS: IN PROGRESS]**</span>
+
 [Metr App](https://metr.at) is probably™️ the most advanced telemetry app for electric skateboards. As amount of features continued to grow over the years the time has come for the proper guide to explain the basics and some hidden secrets in the app.
 
 This guide will be improving over time and hopefully some day will cover everything the app has to offer. Before you start reading there are two very important things you need to know. In order to use it you must have:
@@ -5,7 +7,7 @@ This guide will be improving over time and hopefully some day will cover everyth
 * [VESC®](https://vesc-project.com)-based controller
 * [Metr Pro](https://metr.at/shop) bluetooth module
 
-If you skateboard has another controller, the app will not work for you. For example Meepo, WowGo, Backfire have another type of controller and are not compatible.
+If your skateboard has another controller, the app will not work for you. For example Boosted, Evolve, Mellow, Meepo, WowGo, Backfire have another type of controller and are not compatible.
 
 
 ### Contents
@@ -53,21 +55,51 @@ It is possible to arrange/show/hide/resize/recolour cells:
 * Long press and drag to resize
 * Touch colour palette to change colour, long press a colour to expand more colours
 
-<img src="https://rpasichnyk.github.io/metr-guide/realtime1.mp4.gif" width="330">
+<img src="https://rpasichnyk.github.io/metr-guide/realtime1.mp4.gif" width="320">
 
 There is an indicator in the bottom which shows currently selected BLE module and connection status, ESC hardware name and firmware version. It blinks every time new packet from VESC is received.
 
 <img src="https://rpasichnyk.github.io/metr-guide/status1.mp4.gif" width="220">
 
 <h3 id='heading--modes'>🐌 Modes</h3>
-TBD
+
+You can setup a number of modes (profiles) to change max speed, acceleration and braking power. The recommended way to create a new mode is to read existing config from VESC and then change values.
+
+<img src="https://rpasichnyk.github.io/metr-guide/mode-new.mov.gif" width="320">
+
+To apply a mode, swipe it to the right
+
+<img src="https://rpasichnyk.github.io/metr-guide/mode-apply.mov.gif" width="320">
+
+To rename a mode, open it and click on the name
+
+<img src="https://rpasichnyk.github.io/metr-guide/mode-rename.mov.gif" width="320">
+
+You can also share modes
+
+<img src="https://rpasichnyk.github.io/metr-guide/mode-share.png" width="400">
+
 <h3 id='heading--records'>⏺ Records</h3>
-TBD  
+
+Records can be started and stopped automatically (configurable in Settings → Records)
+
 To export raw JSON data open your record in the browser and add `?format=json` in the address bar.
 <h3 id='heading--faults'>🛑 Faults</h3>
-TBD
+
+All faults that happen to VESC while it's connected to the app are recorded and can be seen in a separate tab
+
+<img src="https://rpasichnyk.github.io/metr-guide/faults.mov.gif" width="320">
+
 <h3 id='heading--expert'>🎓 Expert</h3>
-TBD
+
+Expert is for expert use only. It allowes to change and tweak all possible configuration parameters on VESC. Both motor configuration and app configuration. It automatically detects all VESCs connected via CAN bus so you can switch between them and change settings. There is a super convenient omnibox to easily search what you want to change
+
+<img src="https://rpasichnyk.github.io/metr-guide/expert-change.mov.gif" width="320">
+
+It is also possible to do motor detection (both BLDC and FOC) in Expert. Click menu → Detect motor
+
+<img src="https://rpasichnyk.github.io/metr-guide/expert-detect.mov.gif" width="320">
+
 <h3 id='heading--announcements'>📣 Announcements</h3>
 TBD
 <h3 id='heading--settings'>⚙️ Settings</h3>
