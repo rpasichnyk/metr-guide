@@ -103,7 +103,15 @@ It is also possible to do motor detection (both BLDC and FOC) in Expert. Click m
 <h3 id='heading--announcements'>📣 Announcements</h3>
 TBD
 <h3 id='heading--settings'>⚙️ Settings</h3>
-TBD
+
+To switch between metric and imperial go to Settings → Miscellaneous
+
+<img src="https://rpasichnyk.github.io/metr-guide/settings-metric-app.mov.gif" width="320">
+
+And when viewing a record in a browser
+
+<img src="https://rpasichnyk.github.io/metr-guide/settings-metric-web.mov.gif" width="500">
+
 <h3 id='heading--overlay'>🔢 Overlay</h3>
 An easy way to add telemetry to your videos. You can film the video with the camera of your choice and record the telemetry data separately with the metr app. Then you combine them together.
 
