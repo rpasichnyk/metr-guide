@@ -67,7 +67,7 @@ You can setup a number of modes (profiles) to change max speed, acceleration and
 
 <img src="https://rpasichnyk.github.io/metr-guide/mode-new.mov.gif" width="320">
 
-To apply a mode, swipe it to the right
+To apply a mode, swipe it to the right. The mode will be automatically applied to all VESCs connected via CAN bus
 
 <img src="https://rpasichnyk.github.io/metr-guide/mode-apply.mov.gif" width="320">
 
@@ -81,7 +81,7 @@ You can also share modes
 
 <h3 id='heading--records'>⏺ Records</h3>
 
-Records can be started and stopped automatically (configurable in Settings → Records)
+Records can be started and stopped automatically (configurable in Settings → Records). If  the app is running in the background it will automatically detect selected BLE module, connect to it and start a new record.
 
 To export raw JSON data open your record in the browser and add `?format=json` in the address bar.
 <h3 id='heading--faults'>🛑 Faults</h3>
