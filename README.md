@@ -13,6 +13,7 @@ If your skateboard has another controller, the app will not work for you. For ex
 ### Contents
 
 [First time setup](#heading--firsttime)  
+[Metr Pro firmware](#heading--metrprofwupdate)  
 [Realtime](#heading--realtime)  
 [Modes](#heading--modes)  
 [Records](#heading--records)  
@@ -27,6 +28,14 @@ If your skateboard has another controller, the app will not work for you. For ex
 <h3 id='firsttime'>🐣 First time setup</h3>
 
 Follow the instructions at [metr.at/setup](https://metr.at/setup)
+
+<h3 id='metrprofwupdate'>⚙️ Metr Pro firmware</h3>
+
+In order to use all applications latest features it is important that your Metr Pro has the latest firmware. You can check it by going to Settings and clicking on the blue gear near the module name.
+
+<img src="https://rpasichnyk.github.io/metr-guide/fwupdate.gif" width="320">
+
+Click Upgrade and wait until firmware update over BLE is complete.
 
 <h3 id='realtime'>📈 Realtime</h3>
 
