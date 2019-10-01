@@ -158,4 +158,4 @@ If you didn't find anything relevant, could be that you found a bug! The bugs ar
 This guide is written in [Markdown](https://en.wikipedia.org/wiki/Markdown) and is available at
 
 [GitHub](https://rpasichnyk.github.io/metr-guide/) (contributions welcome)  
-[forum.esk8.news](https://forum.esk8.news/t/the-definitive-guide-to-metr-app) (ask your questions here)
+[forum.esk8.news](https://forum.esk8.news/t/the-definitive-guide-to-metr-app-metr-pro) (ask your questions here)
