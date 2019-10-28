@@ -17,6 +17,7 @@ If your skateboard has another controller, the app will not work for you. For ex
 [Realtime](#heading--realtime)  
 [Modes](#heading--modes)  
 [Records](#heading--records)  
+[Account](#heading--account)  
 [Faults](#heading--faults)  
 [Expert](#heading--expert)  
 [Announcements](#heading--announcements)  
@@ -93,6 +94,13 @@ You can also share modes
 Records can be started and stopped automatically (configurable in Settings → Records). If  the app is running in the background it will automatically detect selected BLE module, connect to it and start a new record.
 
 To export raw JSON data open your record in the browser and add `?format=json` in the address bar.
+
+<h3 id='heading--account'>👤 Account</h3>
+
+You can sign in to your account at [https://metr.at/account](https://metr.at/account) and view stats and all records for currently selected Metr Pro module. The sign in is done using public key cryptography instead of a password. You need to have active connection to Metr Pro in order to sign in.
+
+<img src="https://rpasichnyk.github.io/metr-guide/account.mov.gif" width="320">
+
 <h3 id='heading--faults'>🛑 Faults</h3>
 
 All faults that happen to VESC while it's connected to the app are recorded and can be seen in a separate tab
