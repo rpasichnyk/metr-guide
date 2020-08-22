@@ -24,6 +24,7 @@ If your skateboard has another controller, the app will not work for you. For ex
 [Settings](#heading--settings)  
 [Overlay](#heading--overlay)  
 [DieBieMS](#heading--diebiems)  
+[FlexiBMS](#heading--flexibms)  
 [Troubleshooting](#heading--troubleshooting)  
 
 <h3 id='heading--firsttime'>🐣 First time setup</h3>
@@ -144,12 +145,23 @@ Click Import G-Metrix and use the .fit file that you downloaded
 
 <h3 id='heading--diebiems'>🔋 DieBieMS</h3>
 
-[DieBieMS](https://github.com/DieBieEngineering/DieBieMS) is a smart BMS (Battery Management System). If you have DieBieMS connected via CAN bus it will be automatically detected in the Metr App. DieBieMS provides such information as individual cell voltages and state of charge / discharge, consumption based battery percent data.
+[DieBieMS](https://github.com/DieBieEngineering/DieBieMS) is a smart BMS (Battery Management System). If you have DieBieMS connected via CAN bus it will be automatically detected in the Metr App (no extra setup is needed). DieBieMS provides such information as individual cell voltages and state of charge / discharge, consumption based battery percent data.
 
-No extra setup is needed in the Metr App, DieBieMS 
 To see individual cell voltages, click Battery percent cell on the Realtime page.
 
+<img src="https://rpasichnyk.github.io/metr-guide/diebie-showcells.png" width="400">
+
 When you plug in the charger, DieBieMS view will automatically open and show charging current / balancing state. Glowing dots on the cells mean they are balancing at the moment.
+
+<img src="https://rpasichnyk.github.io/metr-guide/diebie-charging.mp4.gif" width="320">
+
+It is possible to configure DieBieMS through the Metr App. When you open Expert page, DieBieMS shows up and you can read / write settings. This is a quick and convenient way to change some settings when you are on the go and don't have access to full DieBieMS Tool.
+
+<img src="https://rpasichnyk.github.io/metr-guide/diebie-expert.mp4.gif" width="320">
+
+<h3 id='heading--flexibms'>🔋 FlexiBMS</h3>
+
+[FlexiBMS](https://github.com/SimosMCmuffin/FlexiBMS_Lite_FW) is similar to DieBieMS except it is a charge-only BMS. Please read the previous section [DieBieMS](#heading--diebiems).
 
 <h3 id='heading--troubleshooting'>🛠 Troubleshooting</h3>
 
