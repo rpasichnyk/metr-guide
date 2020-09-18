@@ -72,6 +72,14 @@ There is an indicator in the bottom which shows currently selected BLE module an
 
 <img src="https://rpasichnyk.github.io/metr-guide/status1.mp4.gif" width="220">
 
+There are 2 Realtime screens available. You can customize any of them.
+
+<img src="https://rpasichnyk.github.io/metr-guide/realtime2.mp4.gif" width="320">
+
+You can click on small watch icons to select which data will be displayed on the smart watch. Apple watchOS and Android Wear is supported. You can select up to 4 cells.
+
+<img src="https://rpasichnyk.github.io/metr-guide/realtime_watch.mp4.gif" width="320">
+
 <h3 id='heading--modes'>🐌 Modes</h3>
 
 You can setup a number of modes (profiles) to change max speed, acceleration and braking power. The recommended way to create a new mode is to read existing config from VESC and then change values.
@@ -119,7 +127,13 @@ It is also possible to do motor detection (both BLDC and FOC) in Expert. Click m
 <img src="https://rpasichnyk.github.io/metr-guide/expert-detect.mov.gif" width="320">
 
 <h3 id='heading--announcements'>📣 Announcements</h3>
-TBD
+
+Announcements is a very useful feature that literally tells you realtime data without you having to look at it.
+
+<img src="https://rpasichnyk.github.io/metr-guide/announce.png" width="400">
+
+You can customize which kind of data you want to hear and how often.
+
 <h3 id='heading--settings'>⚙️ Settings</h3>
 
 To switch between metric and imperial go to Settings → Miscellaneous
