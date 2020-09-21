@@ -126,6 +126,14 @@ It is also possible to do motor detection (both BLDC and FOC) in Expert. Click m
 
 <img src="https://rpasichnyk.github.io/metr-guide/expert-detect.mov.gif" width="320">
 
+Metr app fetches motor and app configuration every time connection is made with Metr Pro and saves a backup. To check history of changes click menu → History.
+
+<img src="https://rpasichnyk.github.io/metr-guide/expert-history.mov.gif" width="320">
+
+For DieBieMS / FlexiBMS too!
+
+<img src="https://rpasichnyk.github.io/metr-guide/expert-historybms.mov.gif" width="320">
+
 <h3 id='heading--announcements'>📣 Announcements</h3>
 
 Announcements is a very useful feature that literally tells you realtime data without you having to look at it.
