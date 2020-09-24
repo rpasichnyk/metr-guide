@@ -20,6 +20,7 @@ If your skateboard has another controller, the app will not work for you. For ex
 [Account](#heading--account)  
 [Faults](#heading--faults)  
 [Expert](#heading--expert)  
+[Discharger](#heading--discharger)  
 [Announcements](#heading--announcements)  
 [Settings](#heading--settings)  
 [Overlay](#heading--overlay)  
@@ -133,6 +134,21 @@ Metr app fetches motor and app configuration every time connection is made with 
 For DieBieMS / FlexiBMS too!
 
 <img src="https://rpasichnyk.github.io/metr-guide/expert-historybms.mov.gif" width="320">
+
+<h4 id='heading--discharger'>⚡️ Discharger</h4>
+
+To use discharger, open Expert tab, click menu → Discharger
+
+<img src="https://rpasichnyk.github.io/metr-guide/discharger.mov.gif" width="320">
+
+It uses `foc_openloop` command to discharge battery. Battery current goes through motors, but they are not spinning, just heating.
+
+⏱ Takes several hours to discharge a battery  
+🌱 Quiet and about 5x faster than freespin  
+🔢 Uses multiple VESCs/motors over CAN bus  
+📈 Continuously sends `COMM_ALIVE` packets and monitors realtime data  
+🔥 Motor temperature limit 60℃, VESC temperature limit 70℃  
+✅ Turns off when reached storage level  
 
 <h3 id='heading--announcements'>📣 Announcements</h3>
 
