@@ -137,7 +137,7 @@ For DieBieMS / FlexiBMS too!
 
 <h4 id='heading--discharger'>⚡️ Discharger</h4>
 
-To use discharger, open Expert tab, click menu → Discharger
+You want to discharge battery pack in some cases, for example before winter. Storing battery discharged will increase its longevity. Sometimes you think about it too late and the weather is already bad to discharge the normal way. Fortunately there is a feature in metr app to help with that. To use discharger, open Expert tab, click menu → Discharger
 
 <img src="https://rpasichnyk.github.io/metr-guide/discharger.mov.gif" width="320">
 
