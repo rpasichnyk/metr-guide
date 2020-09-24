@@ -160,6 +160,18 @@ You can customize which kind of data you want to hear and how often.
 
 <h3 id='heading--settings'>⚙️ Settings</h3>
 
+Very importaint, make sure motor settings is configured correctly
+
+<img src="https://rpasichnyk.github.io/metr-guide/settings-motor.png" width="400">
+
+It is recommended to enable Location
+
+<img src="https://rpasichnyk.github.io/metr-guide/settings-location.png" width="400">
+
+and Notifications
+
+<img src="https://rpasichnyk.github.io/metr-guide/settings-notifications.png" width="400">
+
 To switch between metric and imperial go to Settings → Miscellaneous
 
 <img src="https://rpasichnyk.github.io/metr-guide/settings-metric-app.mov.gif" width="320">
