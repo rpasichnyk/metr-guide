@@ -160,7 +160,7 @@ You can customize which kind of data you want to hear and how often.
 
 <h3 id='heading--settings'>⚙️ Settings</h3>
 
-Very importaint, make sure motor settings is configured correctly
+Very importaint, make sure motor settings are configured correctly
 
 <img src="https://rpasichnyk.github.io/metr-guide/settings-motor.png" width="400">
 
