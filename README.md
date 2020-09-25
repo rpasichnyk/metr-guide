@@ -23,6 +23,7 @@ If your skateboard has another controller, the app will not work for you. For ex
 [Discharger](#heading--discharger)  
 [Announcements](#heading--announcements)  
 [Settings](#heading--settings)  
+[TCP Bridge](#heading--tcpbridge)  
 [Overlay](#heading--overlay)  
 [DieBieMS](#heading--diebiems)  
 [FlexiBMS](#heading--flexibms)  
@@ -179,6 +180,16 @@ To switch between metric and imperial go to Settings → Miscellaneous
 And when viewing a record in a browser
 
 <img src="https://rpasichnyk.github.io/metr-guide/settings-metric-web.mov.gif" width="500">
+
+<h3 id='heading--tcpbridge'>🌉 TCP Bridge</h3>
+
+Connect to Metr Pro and start TCP Bridge from Settings tab
+
+<img src="https://rpasichnyk.github.io/metr-guide/tcpbridge.mov.gif" width="320">
+
+Then open VESC Tool and use the same IP address
+
+<img src="https://rpasichnyk.github.io/metr-guide/tcpbridge-vesc_tool.png" width="400">
 
 <h3 id='heading--overlay'>🔢 Overlay</h3>
 An easy way to add telemetry to your videos. You can film the video with the camera of your choice and record the telemetry data separately with the metr app. Then you combine them together.
