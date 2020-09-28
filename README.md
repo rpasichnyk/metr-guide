@@ -231,17 +231,17 @@ It is possible to configure DieBieMS through the Metr App. When you open Expert 
 
 [LLT BMS](https://www.lithiumbatterypcb.com/product-category/smart-bms/) comes with it's own BLE module instead of CAN bus. It is possible to pair Metr Pro with LLT BMS using following steps:
 
-1. Make sure you are connected to Metr Pro
-2. Navigate to Settings → Battery
+* Make sure you are connected to Metr Pro
+* Navigate to Settings → Battery
 
 <img src="https://rpasichnyk.github.io/metr-guide/lltbms-settings.png" width="400">
 
-3. Click on "Pair with BMS"
+* Click on "Pair with BMS"
 
 <img src="https://rpasichnyk.github.io/metr-guide/lltbms-pair.png" width="400">
 
-4. Select LLT BMS
-5. Go back to Realtime tab and click on Battery percent cell. You should see cell information
+* Select LLT BMS
+* Go back to Realtime tab and click on Battery percent cell. You should see cell information
 
 <img src="https://rpasichnyk.github.io/metr-guide/lltbms-view.png" width="400">
 
