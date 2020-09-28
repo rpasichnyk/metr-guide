@@ -12,22 +12,23 @@ If your skateboard has another controller, the app will not work for you. For ex
 
 ### Contents
 
-[First time setup](#heading--firsttime)  
-[Metr Pro firmware](#heading--metrprofwupdate)  
-[Realtime](#heading--realtime)  
-[Modes](#heading--modes)  
-[Records](#heading--records)  
-[Account](#heading--account)  
-[Faults](#heading--faults)  
-[Expert](#heading--expert)  
-[Discharger](#heading--discharger)  
-[Announcements](#heading--announcements)  
-[Settings](#heading--settings)  
-[TCP Bridge](#heading--tcpbridge)  
-[Overlay](#heading--overlay)  
-[DieBieMS](#heading--diebiems)  
-[FlexiBMS](#heading--flexibms)  
-[Troubleshooting](#heading--troubleshooting)  
+[🐣 First time setup](#heading--firsttime)  
+[⚙️ Metr Pro firmware](#heading--metrprofwupdate)  
+[📈 Realtime](#heading--realtime)  
+[🐌 Modes](#heading--modes)  
+[⏺ Records](#heading--records)  
+[👤 Account](#heading--account)  
+[🛑 Faults](#heading--faults)  
+[🎓 Expert](#heading--expert)  
+[⚡️ Discharger](#heading--discharger)  
+[📣 Announcements](#heading--announcements)  
+[⚙️ Settings](#heading--settings)  
+[🌉 TCP Bridge](#heading--tcpbridge)  
+[🔢 Overlay](#heading--overlay)  
+[🔋 DieBieMS](#heading--diebiems)  
+[🔋 FlexiBMS](#heading--flexibms)  
+[🔋 LLT BMS](#heading--lltbms)  
+[🛠 Troubleshooting](#heading--troubleshooting)  
 
 <h3 id='heading--firsttime'>🐣 First time setup</h3>
 
@@ -223,6 +224,27 @@ It is possible to configure DieBieMS through the Metr App. When you open Expert 
 <h3 id='heading--flexibms'>🔋 FlexiBMS</h3>
 
 [FlexiBMS](https://github.com/SimosMCmuffin/FlexiBMS_Lite_FW) is similar to DieBieMS except it is a charge-only BMS. Please read the previous section [DieBieMS](#heading--diebiems).
+
+<h3 id='heading--lltbms'>🔋 LLT BMS</h3>
+
+<img src="https://rpasichnyk.github.io/metr-guide/lltbms.jpg" width="400">
+
+[LLT BMS](https://www.lithiumbatterypcb.com/product-category/smart-bms/) comes with it's own BLE module instead of CAN bus. It is possible to pair Metr Pro with LLT BMS using following steps:
+
+1. Make sure you are connected to Metr Pro
+2. Navigate to Settings → Battery
+
+<img src="https://rpasichnyk.github.io/metr-guide/lltbms-settings.png" width="400">
+
+3. Click on "Pair with BMS"
+
+<img src="https://rpasichnyk.github.io/metr-guide/lltbms-pair.png" width="400">
+
+4. Select LLT BMS
+5. Go back to Realtime tab and click on Battery percent cell. You should see cell information
+
+<img src="https://rpasichnyk.github.io/metr-guide/lltbms-view.png" width="400">
+
 
 <h3 id='heading--troubleshooting'>🛠 Troubleshooting</h3>
 
