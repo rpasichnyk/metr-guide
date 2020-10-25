@@ -107,6 +107,58 @@ Records can be started and stopped automatically (configurable in Settings → R
 
 To export raw JSON data open your record in the browser and add `?format=json` in the address bar.
 
+JSON data format:
+
+```
+{
+  "ah":0.49,                         // Total charge consumed, Ah
+  "ahRegen":0.02,                    // Total regen-braking charge, Ah
+  "altitude":[0,0,-0.1,-0.2],        // Relative altitude change, m
+  "appver":"4.6.10",                 // Metr app version
+  "consumption":[11.2,11.3,11,10.5], // Consumption, Wh/km
+  "current":[-0.02,0.92,2.46,2.38],  // Battery current, A
+  "current2":[],                     // Battery current ESC#2, A
+  "current3":[],                     // Battery current ESC#3, A
+  "current4":[],                     // Battery current ESC#4, A
+  "description":"",                  // Long record description, text
+  "distance":2353.07,                // Total covered distance, m
+  "duration":430471,                 // Total duration, ms
+  "duty":[23.7,25.6,25.5,25.7],      // Duty cycle, %
+  "elapsed":[359,683,877,1346],      // Time, ms
+  "elapsedAh":[0,0.01,0.02,0.02],    // Charge consumed, Ah
+  "elapsedAhRegen":[0,0,0,0],        // Regen braking change, Ah
+  "elapsedDistance":[0,0,0.5,1.9],   // Covered distance, m
+  "elapsedWh":[0,0,0.1,0.1],         // Spent energy, Wh
+  "elapsedWhRegen":[0,0,0,0],        // Regen-brakign energy, Wh
+  "end":1602758871101,               // Record end timestamp, ms since Epoch
+  "escCount":1,                      // ESC count
+  "faultCode":[0,0,0,0],             // ESC fault code
+  "faultsCount":0,                   // Number of ESC faults
+  "fw":"23.46 UNITY",                // ESC firmware
+  "latitude":[59.29341,59.29341],    // Latitude, degrees
+  "longitude":[18.00459,18.00459],   // Longitude, degrees
+  "motorCount":2,                    // Number of motors
+  "motorCurrent":[0,1.99,5.7,5.4],   // Motor current, A
+  "motorCurrent2":[0,1.6,5.57,5.57], // Motor#2 current, A
+  "motorCurrent3":[],                // Motor#3 current, A
+  "motorCurrent4":[],                // Motor#4 current, A
+  "motorTemperature":[23,23,23,23],  // Motor temperature, C
+  "motorTemperature2":[24,24,24,24], // Motor#2 temperature, C
+  "motorTemperature3":[],            // Motor#3 temperature, C
+  "motorTemperature4":[],            // Motor#4 temperature, C
+  "rpm":[16007,16019,16038,15999],   // ESC rpm
+  "speed":[16.08,16.09,16.11,16.07], // Speed, km/h
+  "start":1602758440630,             // Record start timestamp, ms since Epoch
+  "temperature":[26.7,26.7,26.7,26], // ESC temperature, C
+  "temperature2":[],                 // ESC#2 temperature, C
+  "temperature3":[],                 // ESC#3 temperature, C
+  "temperature4":[],                 // ESC#4 temperature, C
+  "title":"bad weather,              // Record short description, text
+  "version":18,                      // Record format version
+  "voltage":[49.1,49,48.8,48.8]      // Voltage, V
+}
+```
+
 <h3 id='heading--account'>👤 Account</h3>
 
 You can sign in to your account at [https://metr.at/account](https://metr.at/account) and view stats and all records for currently selected Metr Pro module. The sign in is done using public key cryptography instead of a password. You need to have active connection to Metr Pro in order to sign in.
