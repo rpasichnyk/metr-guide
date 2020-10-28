@@ -30,6 +30,9 @@ If your skateboard has another controller, the app will not work for you. For ex
 [🔋 LLT BMS](#heading--lltbms)  
 [🛠 Troubleshooting](#heading--troubleshooting)  
 
+#### Frequent issues
+[Location not recorded](#heading--location-not-recorded)  
+
 <h3 id='heading--firsttime'>🐣 First time setup</h3>
 
 Follow the instructions at [metr.at/setup](https://metr.at/setup)
@@ -305,6 +308,21 @@ A good advice is to search for information on [esk8.news forum](https://forum.es
 If you didn't find anything relevant, could be that you found a bug! The bugs are always there🐛 and once in a while a new one pops out. If you want to report it, please collect the log file from the app. Open Settings and click on "Show Logs" button. Send log file toghether with the bug description, screenshots or video. Log file resets every day so don't forget to collect it after you experienced the problem.
 
 <img src="https://rpasichnyk.github.io/metr-guide/showlogs.png" width="400">
+
+<br/>
+
+<h4 id='heading--location-not-recorded'>Location not recorded</h4>
+
+iOS: make sure access to location is Always allowed
+
+<img src="https://rpasichnyk.github.io/metr-guide/troubleshooting-location-ios.png" width="400">
+
+Android: make sure location permission is granted, location services are on, notifications are enabled and you have foreground notification on the lock screen
+
+<img src="https://rpasichnyk.github.io/metr-guide/troubleshooting-location-android.png" width="400">
+<img src="https://rpasichnyk.github.io/metr-guide/troubleshooting-location-android-notif.png" width="400">
+<img src="https://rpasichnyk.github.io/metr-guide/troubleshooting-location-android-on.png" width="400">
+<img src="https://rpasichnyk.github.io/metr-guide/troubleshooting-location-android-lockscreen.jpeg" width="400">
 
 <br/>
 <br/>
