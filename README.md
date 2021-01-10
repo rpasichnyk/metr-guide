@@ -319,6 +319,8 @@ iOS: make sure access to location is Always allowed
 
 Android: make sure location permission is granted, location services are on, notifications are enabled and you have foreground notification on the lock screen
 
+<img src="https://rpasichnyk.github.io/metr-guide/troubleshooting-android-home-s8.jpeg" width="400">
+<img src="https://rpasichnyk.github.io/metr-guide/troubleshooting-android-lockscreen-s8.jpeg" width="400">
 <img src="https://rpasichnyk.github.io/metr-guide/troubleshooting-location-android.png" width="400">
 <img src="https://rpasichnyk.github.io/metr-guide/troubleshooting-location-android-notif.png" width="400">
 <img src="https://rpasichnyk.github.io/metr-guide/troubleshooting-location-android-on.png" width="400">
