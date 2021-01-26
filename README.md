@@ -221,6 +221,10 @@ Very importaint, make sure motor settings are configured correctly
 
 <img src="https://rpasichnyk.github.io/metr-guide/settings-motor.png" width="400">
 
+And battery settings
+
+<img src="https://rpasichnyk.github.io/metr-guide/settings-battery.png" width="400">
+
 It is recommended to enable Location
 
 <img src="https://rpasichnyk.github.io/metr-guide/settings-location.png" width="400">
