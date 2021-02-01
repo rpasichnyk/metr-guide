@@ -29,6 +29,7 @@ If your skateboard has another controller, the app will not work for you. For ex
 [🔋 FlexiBMS](#heading--flexibms)  
 [🔋 LLT BMS](#heading--lltbms)  
 [🛠 Troubleshooting](#heading--troubleshooting)  
+[🛠 Bluetooth repairing](#heading--blerepair)  
 
 #### Frequent issues
 [Location not recorded](#heading--location-not-recorded)  
@@ -329,6 +330,14 @@ Android: make sure location permission is granted, location services are on, not
 <img src="https://rpasichnyk.github.io/metr-guide/troubleshooting-location-android-notif.png" width="400">
 <img src="https://rpasichnyk.github.io/metr-guide/troubleshooting-location-android-on.png" width="400">
 <img src="https://rpasichnyk.github.io/metr-guide/troubleshooting-location-android-lockscreen.jpeg" width="400">
+
+<h3 id='heading--blerepair'>🛠 Bluetooth repairing</h3>
+
+Sometimes after firmware upgrade you might encounter an issue when Metr Pro is not connecting. It might require removing Metr Pro from paired devices and connecting to it again. Please open System Preferences, navigate to Bluetooth, find Metr Pro and remove pairing information. After this, go back to Metr app and scan / connect.
+
+<img src="https://rpasichnyk.github.io/metr-guide/system-settings-bluetooth.png" width="400">
+<img src="https://rpasichnyk.github.io/metr-guide/system-settings-bluetooth2.png" width="400">
+<img src="https://rpasichnyk.github.io/metr-guide/system-settings-bluetooth-forget.png" width="400">
 
 <br/>
 <br/>
