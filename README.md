@@ -97,6 +97,10 @@ To apply a mode, swipe it to the right. The mode will be automatically applied t
 
 <img src="https://rpasichnyk.github.io/metr-guide/mode-apply.mov.gif" width="320">
 
+To apply a mode temporarily (until VESC restart), swipe it to the left and click "Until reboot". After you restart your VESC, it will return to the previous configuration
+
+<img src="https://rpasichnyk.github.io/metr-guide/mode-until-reboot.mov.gif" width="320">
+
 To rename a mode, open it and click on the name
 
 <img src="https://rpasichnyk.github.io/metr-guide/mode-rename.mov.gif" width="320">
