@@ -247,9 +247,9 @@ And when viewing a record in a browser
 
 <img src="https://rpasichnyk.github.io/metr-guide/settings-metric-web.mov.gif" width="500">
 
-<h3 id='heading--rename-module'>🔤 Rename Metr Pro🔤</h3>
+<h3 id='heading--rename-module'>🔤 Rename Metr Pro</h3>
 
-To change Metr Pro name, navigate to Settings tab and click on the blue gear. The new name is sent to Metr Pro and it starts BLE advertising with a new one. Other applications such as VESC Tool will also see the change
+To change Metr Pro name make sure you are connected to it, navigate to Settings tab and click on the blue gear. The new name is sent to Metr Pro and it starts BLE advertising with a new one. Other applications such as VESC Tool will also see the change
 
 <img src="https://rpasichnyk.github.io/metr-guide/settings-rename-module.mov.gif" width="320">
 
