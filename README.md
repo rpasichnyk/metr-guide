@@ -22,7 +22,8 @@ If your skateboard has another controller, the app will not work for you. For ex
 [🎓 Expert](#heading--expert)  
 [⚡️ Discharger](#heading--discharger)  
 [📣 Announcements](#heading--announcements)  
-[⚙️ Settings](#heading--settings)  
+[⚙️ Settings](#heading--settings) 
+[🔤 Rename Metr Pro](#heading--rename-module)  
 [🌉 TCP Bridge](#heading--tcpbridge)  
 [🔢 Overlay](#heading--overlay)  
 [🔋 DieBieMS](#heading--diebiems)  
@@ -245,6 +246,12 @@ To switch between metric and imperial go to Settings → Miscellaneous
 And when viewing a record in a browser
 
 <img src="https://rpasichnyk.github.io/metr-guide/settings-metric-web.mov.gif" width="500">
+
+<h3 id='heading--rename-module'>🔤 Rename Metr Pro🔤</h3>
+
+To change Metr Pro name, navigate to Settings tab and click on the blue gear. The new name is sent to Metr Pro and it starts BLE advertising with a new one. Other applications such as VESC Tool will also see the change
+
+<img src="https://rpasichnyk.github.io/metr-guide/settings-rename-module.mov.gif" width="320">
 
 <h3 id='heading--tcpbridge'>🌉 TCP Bridge</h3>
 
