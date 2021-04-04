@@ -22,7 +22,7 @@ If your skateboard has another controller, the app will not work for you. For ex
 [🎓 Expert](#heading--expert)  
 [⚡️ Discharger](#heading--discharger)  
 [📣 Announcements](#heading--announcements)  
-[⚙️ Settings](#heading--settings) 
+[⚙️ Settings](#heading--settings)  
 [🔤 Rename Metr Pro](#heading--rename-module)  
 [🌉 TCP Bridge](#heading--tcpbridge)  
 [🔢 Overlay](#heading--overlay)  
