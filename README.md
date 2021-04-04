@@ -321,7 +321,10 @@ It is possible to configure DieBieMS through the Metr App. When you open Expert 
 
 A good advice is to search for information on [esk8.news forum](https://forum.esk8.news) and [esk8.builders forum](https://www.electric-skateboard.builders). Maybe you will find the solution.
 
-If you didn't find anything relevant, could be that you found a bug! The bugs are always there🐛 and once in a while a new one pops out. If you want to report it, please collect the log file from the app. Open Settings and click on "Show Logs" button. Send log file toghether with the bug description, screenshots or video. Log file resets every day so don't forget to collect it after you experienced the problem.
+If you didn't find anything relevant, could be that you found a bug! The bugs are always there🐛 and once in a while a new one pops out. If you want to report it, please collect the log file from the app. Open Settings and click on "Show Logs" button. Send log file toghether with the bug description to support@metr.at, screenshots or video. Log file resets every day so don't forget to collect it after you experienced the problem.
+
+In case you need to get log file from previous date: on Android open File Explorer and go to your main storage.
+Look for the folder `Android → data → at.metr.app → data`, scroll down and check all `.txt` files that begin with `log_` and find the one with the correct date. Please email this file to support@metr.at. On iOS, if you have a mac, connect your iPhone to it, launch Finder, select your iPhone → Apps → metr.at and collect log file. 
 
 <img src="https://rpasichnyk.github.io/metr-guide/showlogs.png" width="400">
 
